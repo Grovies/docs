@@ -31,8 +31,8 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+        title="Groovies API Documentation"
+        description="Explore the comprehensive documentation for Groovies. Whether you're building a music app, enhancing your existing service, or exploring new possibilities, Groovies API empowers you with robust tools and data to create immersive music experiences.">
       <HomepageHeader />
     </Layout>
   );
